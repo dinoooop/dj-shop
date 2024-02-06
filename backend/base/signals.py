@@ -1,6 +1,5 @@
 from django.db.models.signals import pre_save
 from django.contrib.auth.models import User
-from base.views import product_views as views
 
 def updateUser(sender, instance, **kwargs):
     user = instance

@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    #Project Apps
     'base.apps.BaseConfig',
+    'products',
 ]
 
 REST_FRAMEWORK = {
